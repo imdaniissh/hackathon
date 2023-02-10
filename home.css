@@ -1,0 +1,173 @@
+                                                        /*navbar section*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #ccc;
+    
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-tag {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .middle-side {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  .middle-side a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  .middle-side a:hover{
+    cursor: pointer;
+    color: lightblue;
+    transform: translateY(-2px);
+  }
+  .signin-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .signin-btn{
+ padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0099ff;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+  }
+  .signin-btn:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.35);
+  }
+  .right-side {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+ 
+  
+  /* middle content section */
+  #middle-content {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  #middle-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  #middle-content p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 60px;
+  }
+  
+  .middle-content-cta {
+    margin-top: 40px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta-btn:hover {
+    background-color: #005daa;
+    cursor: pointer;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  #login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  form {
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  label, input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  
+  
