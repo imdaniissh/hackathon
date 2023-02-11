@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="user_detail.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Poppins:wght@300&family=Roboto+Mono:wght@300&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="left-side">
+            <div class="company-tag">Health Care App</div>
+        </div>
+        <div class="middle-side">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#apps">Apps</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <button class="signin-btn"> <a href="login.html">Sign In</a>
+            </button>
+        </div>
+    </nav>
+    <!-- Page 1: Height Input -->
+  <div class="height-container">
+    <form action="#height">
+      <div class="form-group">
+        <label for="height">Enter your height (in cm):</label>
+        <input type="number" id="height" name="height" required>
+      </div>
+      
+    </form>
+  </div>
+  
+  <!-- Page 2: Weight Input -->
+  <div class="weight-container" >
+    <form action="#weight">
+      <div class="form-group">
+        <label for="weight">Enter your weight (in kg):</label>
+        <input type="number" id="weight" name="weight" required>
+      </div>
+     
+    </form>
+  </div>
+  
+  <!-- Page 3: Age Input -->
+  <div class="age-container" >
+    <form action="#age">
+      <div class="form-group">
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age" name="age" required>
+      </div>
+      
+    </form>
+  </div>
+  <div class="form-group">
+    <label for="gender">Select your gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="">--Please choose an option--</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <div class="form-group">
+        <button type="submit">Submit</button>
+      </div>
+  </div>
+
+</body>
+
+</html>
