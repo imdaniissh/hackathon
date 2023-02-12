@@ -79,6 +79,84 @@ nav {
     align-items: center;
     margin-right: 10px;
   }
+ /*                                                    Responsive Nav    */
+  @media (max-width: 767px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 20px;
+    }
+  
+    .left-side, .middle-side, .right-side {
+      display: block;
+      text-align: center;
+    }
+  
+    .company-tag, .middle-side a, .signin-btn {
+      font-size: 16px;
+    }
+  
+    .signin-btn {
+      margin-top: 20px;
+    }
+  
+    ul {
+      display: block;
+    }
+  
+    li {
+      margin: 10px 0;
+    }
+  
+    .right-side {
+      margin-right: 0;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 375px) and (max-width: 767px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px;
+    }
+  
+    .left-side,
+    .middle-side,
+    .right-side {
+      display: block;
+      text-align: center;
+    }
+  
+    .company-tag,
+    .middle-side a,
+    .signin-btn {
+      font-size: 14px;
+    }
+  
+    .signin-btn {
+      margin-top: 20px;
+    }
+  
+    ul {
+      display: block;
+    }
+  
+    li {
+      margin: 10px 0;
+    }
+  
+    .right-side {
+      margin-right: 0;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  }
  
   
   /* middle content section */
